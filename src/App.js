@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { Box, Flex } from "@chakra-ui/react";
+import Calculator from "./components/Calculator";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Flex justifyContent="center" align="center">
+      <Box
+        w="1440px"
+        h="100vh"
+        d="flex"
+        flexDirection="column"
+        justifyContent="center"
+        alignItems="center"
+        bgColor="tip.200"
+      >
+        <Box>
+          <Header text="SPLI" />
+          <Header text="TTER" />
+        </Box>
+        <Calculator />
+      </Box>
+    </Flex>
   );
 }
 
