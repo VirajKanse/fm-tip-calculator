@@ -29,7 +29,7 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop View](./screenshots/tip-calc-desktop.png)
-![Desktop View](./screenshots/tip-calc-alt-desktop.png)
+![Desktop View](./screenshots/tip-calc-error-desktop.png)
 ![Mobile View](./screenshots/tip-calc-mobile.png)
 
 ### Links
